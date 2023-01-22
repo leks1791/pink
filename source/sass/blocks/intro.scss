@@ -1,0 +1,43 @@
+.intro {
+  color: $white;
+  background: url(../img/desktop/back-desktop.jpg) no-repeat bottom center;
+  background-size: cover;
+  padding-top: 224px;
+  min-height: 853px;
+}
+
+.intro__title {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.intro__button {
+  display: block;
+  color: inherit;
+  width: 300px;
+  height: 56px;
+  border: 3px solid $white;
+  border-radius: 28px;
+  padding-top: 12px;
+  font-weight: 700;
+}
+
+.intro__content {
+  width: 300px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+.intro__text {
+  font-weight: 300;
+}
+
+.intro__icon {
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+}

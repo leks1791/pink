@@ -3,36 +3,56 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pink</title>
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="page__body">
   <header class="header">
-    <a class="header__logo logo">
-      <img src="/img/desktop/logotype-white-desktop.svg" alt="Pink" />
-    </a>
-    <nav class="header__nav nav">
-      <button class="nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <ul class="nav__list">
-        <li class="nav__item nsv__item--current"><a>Главная</a></li>
-        <li class="nav__item"><a href="catalog.html">Фотографии</a></li>
-        <li class="nav__item"><a href="#">Конкурс</a></li>
-        <li class="nav__item"><a href="#">HTML Academy</a></li>
-      </ul>
-    </nav>
+    <div class="header__wrap wrapper">
+      <a class="header__logo logo">
+        <img src="/img/desktop/logotype-white-desktop.svg" alt="Pink" />
+      </a>
+      <nav class="header__nav nav">
+        <button class="nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+          <img src="img/mobile/open-menu-btn.svg" alt="">
+        </button>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--current"><a>Главная</a></li>
+          <li class="nav__item"><a href="catalog.html">Фотографии</a></li>
+          <li class="nav__item"><a href="#">Конкурс</a></li>
+          <li class="nav__item"><a href="#">HTML Academy</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
     <h1 class="visually-hidden">Приложение пинк</h1>
-    <section class="promo">
-      <h2 class="promo__title">Взгляните на жизнь иначе!</h2>
-      <a href="#" class="promo__button">Скачать приложение</a>
-      <div class="promo__link">1 2 3</div>
-      <p class="promo__text">
-        Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
-      </p>
+    <section class="intro">
+      <div class="wrapper">
+        <div class="intro__content">
+          <h2 class="intro__title">Взгляните на жизнь иначе!</h2>
+          <a class="intro__button" href="#">Скачать приложение</a>
+          <div class="intro__link">
+            <img class="intro__icon" src="img/apple-logo.svg" width="47" height="56" alt="Скачать в AppStore">
+            <img class="intro__icon" src="img/android-logo.svg" width="43" height="47" alt="Скачать в GooglePlay">
+            <img class="intro__icon" src="img/microsoft-logo.svg" width="44" height="41"
+              alt="Скачать в Microsoft Store">
+          </div>
+          <p class="intro__text">
+            Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+          </p>
+        </div>
+      </div>
     </section>
     <section class="features">
       <h2 class="features__title">
